@@ -1,6 +1,12 @@
 function isOldEnoughToVote(age: number): boolean {
-  // your code here
-    return false;
+  // Cambiamos el nombre a 'isOldEnoughToVote'
+  // Cambiamos la condición a '>= 18'
+  return age >= 18;
 }
 
-export {};
+// Ejemplo de uso para probarlo:
+let output = isOldEnoughToVote(22);
+console.log(output); // --> true
+
+let outputMenor = isOldEnoughToVote(17);
+console.log(outputMenor); // --> false

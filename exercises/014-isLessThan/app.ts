@@ -1,6 +1,10 @@
 function isLessThan(num1: number, num2: number): boolean {
   // your code here
-  return false;
+  if (num1 > num2){
+    return true;
+  } else {
+    return false;
+  }
 }
-
-export {};
+let output = isLessThan(9, 4);
+console.log(output);
