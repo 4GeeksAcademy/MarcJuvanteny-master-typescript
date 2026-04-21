@@ -1,6 +1,7 @@
 function computePerimeterOfACircle(radius: number): number {
   // your code here
-  return 0;
+  let perimeter = 2 * Math.PI * radius; 
+  return perimeter;
 }
 
 export {};

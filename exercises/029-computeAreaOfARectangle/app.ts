@@ -1,6 +1,7 @@
 function computeAreaOfARectangle(length: number, width: number): number {
   // your code here
-  return 0;
+  let area = length * width;
+  return area;
 }
 
 export {};

@@ -1,6 +1,8 @@
 function square(n: number): number {
   // your code here
-  return 0;
-}
+  let square = n * n;
+  return square;
+  }
 
-export {};
+let output = square(5);
+console.log(output);
