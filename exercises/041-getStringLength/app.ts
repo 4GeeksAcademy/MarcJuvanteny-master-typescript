@@ -1,6 +1,12 @@
 function getStringLength(string: string): number {
   // your code here
-  return 0;
+  let count = 0;
+
+  for (const _char of string) {
+    count++;
+  }
+
+  return count;
 }
 
 export {};

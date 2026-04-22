@@ -1,6 +1,8 @@
-function getNthElement(array: unknown[], n: number): unknown[] {
+
+function getNthElement(array: unknown[], n: number): unknown {
   // your code here
-    return [];
+
+    return array[n  % array.length];
 }
 
 export {};
